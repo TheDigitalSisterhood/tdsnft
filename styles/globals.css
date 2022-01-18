@@ -1,16 +1,29 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
-* {
-  box-sizing: border-box;
+/* body, html {
+  font-size: 10px;
+} */
+
+:root {
+  --primaryColor: #5930ce;
+  --primaryColorHover: #6444bd;
+  --secondaryColor: #ff4081;
+  --secondaryColorHover: #c71f57;
+  --white: #fff;
+  --black: #000;
+  --greenDark: #02573f;
+  --green: #017b5a;
+  --greenLight: #02b182;
+  --purple: #5930ce;
+  --purpleLight: #643dcf;
+  --orange: #fea804;
+  --orangeDark: #dd9001;
+  --orangeLight: #e9bb3d;
+  --red: #bf524e;
+  --redDark: #993c39;
+  --redLight: #d4625f;
+  --gray: #AAA;
 }
